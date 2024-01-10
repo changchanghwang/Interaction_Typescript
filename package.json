@@ -1,0 +1,44 @@
+{
+  "name": "interaction_typescript",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changchanghwang/Interaction_Typescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "interaction"
+  ],
+  "author": "arthur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/changchanghwang/Interaction_Typescript/issues"
+  },
+  "homepage": "https://github.com/changchanghwang/Interaction_Typescript#readme",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
+    "eslint": "^8.42.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jest": "^27.6.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  }
+}
