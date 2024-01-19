@@ -1,8 +1,6 @@
 {
   "compilerOptions": {
-    "lib": [
-      "es2021"
-    ],
+    "lib": ["es2021"],
     "target": "es2021",
     "allowJs": true,
     "skipLibCheck": true,
@@ -28,15 +26,13 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+      "@lib/*": ["lib/*"],
+      "@components/*": ["components/*"],
+      "@components": ["components"]
+    }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }
