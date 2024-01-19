@@ -1,10 +1,9 @@
-import { Header } from '@components/Header';
 import { ThemeButton } from '@components/ThemeButton';
 
 function HomeScreen() {
   return (
     <div>
-      <div className="w-100 h-100 bg-zinc-950 dark:bg-white">hello</div>
+      <div className="w-85 h-85 text-xl bg-white">hello</div>
       <ThemeButton />
     </div>
   );
