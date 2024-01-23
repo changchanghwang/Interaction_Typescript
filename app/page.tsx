@@ -1,10 +1,10 @@
 import { ThemeButton } from '@components/ThemeButton';
+import { Header } from '../components/Header';
 
 function HomeScreen() {
   return (
     <div>
-      <div className="w-85 h-85 text-xl bg-white">hello</div>
-      <ThemeButton />
+      <Header />
     </div>
   );
 }
